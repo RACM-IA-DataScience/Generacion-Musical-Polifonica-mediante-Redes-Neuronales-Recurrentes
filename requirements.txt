@@ -1,0 +1,28 @@
+# =============================================================================
+# Dependencias del Proyecto Final:
+# Generación Musical con Redes Neuronales LSTM y Reproductor MIDI Studio
+# =============================================================================
+# Nota de sistema: Requiere tener instalado FluidSynth en el sistema operativo
+# y un banco de sonidos General MIDI (ej. FluidR3_GM.sf2).
+# En Ubuntu/Debian/Colab: sudo apt-get install -y fluidsynth fluid-soundfont-gm
+# =============================================================================
+
+# --- Deep Learning y Cálculo Numérico ---
+torch>=2.0.0
+numpy>=1.24.0
+
+# --- Procesamiento Simbólico y Síntesis de Archivos MIDI / Audio ---
+pretty_midi>=0.2.10
+mido>=1.3.0
+midi2audio>=0.1.1
+soundfile>=0.12.1
+
+# --- Descarga de Datasets ---
+kagglehub>=0.2.0
+
+# --- Visualización, Interfaz Interactiva y Entorno Jupyter ---
+ipywidgets>=8.0.0
+ipython>=8.12.0
+jupyter>=1.0.0
+matplotlib>=3.7.0
+setuptools>=65.0.0
